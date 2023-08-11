@@ -22,7 +22,7 @@ job "mysql-server" {
       driver = "docker"
 
       config {
-        image = "mysql/mysql-server:8.0"
+        image = "mysql/mysql-server:6.0"
 
         port_map {
           db = 3306
